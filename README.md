@@ -72,12 +72,12 @@ Historical stock data obtained from [Yahoo Finance](https://finance.yahoo.com/) 
    ```bas
    jupyter notebook "Stock market LSTM.ipynb"
 
-6. Results
+## Results
 After training for 100 epochs:
 - The model learns to track historical trends and forecasts the next-day closing price.
 - Performance (e.g., RMSE) will depend on window size, network architecture, and hyperparameters.
 
-5. Future Work
+## Future Work
 - Incorporate news sentiment analysis for richer features.
 - Add technical indicators (moving averages, RSI, MACD).
 - Tune hyperparameters (learning rate, units, layers).
